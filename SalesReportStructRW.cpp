@@ -74,8 +74,7 @@ int main()
 	fout << fixed << setprecision(2) << TITLE << endl
 		<< AUTHOR_LINE << endl << endl;
 
-	// While getline is still reading data
-	// from file input stream
+	// While variable data are still being read from input stream
 	while (fin >> invoiceNumber >> equipCode >> invoiceCost)
 	{
 		capVal = 0;
