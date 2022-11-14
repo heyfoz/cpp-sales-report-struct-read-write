@@ -11,6 +11,7 @@ using namespace std;
 const string TITLE = "Sales Report Structure Program";
 const string AUTHOR_LINE = "By Forrest Moulin";
 
+// Declare SalesRecord structure for sales report
 struct SalesRecord
 {
 	double capitalEquip, expensedEquip, smallParts;
